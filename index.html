@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Payment</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+  <link rel="stylesheet" href="css/final-styles.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<div class="box-left">
+				<div class="left-top">
+					<h2 class="left__heading">My wallets</h2>
+					<button class="add-card" type="button">
+						<img class="add-card-icon" width="24" height="24" src="img/plus.svg" alt="Add card">
+					</buttun>
+				</div>
+				<ul class="cards-list">
+					<li class="card">
+						<a class="card__link" href="#">
+							<img class="card__img" src="img/visa.svg" width="65" alt="Visa card">
+							<p class="card__num">**** **** **** 2562</p>
+							<p class="card__date">Valid thru: 12/17</p>
+						</a>
+					</li>
+					<li class="card active">
+						<a class="card__link" href="#">
+							<img class="card__img" src="img/mastercard.svg" width="65" alt="Master card">
+							<p class="card__num">**** **** **** 2101</p>
+							<p class="card__date">Valid thru: 07/19</p>
+						</a>
+					</li>
+					<li class="card">
+						<a class="card__link" href="#">
+							<img class="card__img" src="img/maestro.svg" width="65" alt="Maestro card">
+							<p class="card__num">**** **** **** 8335</p>
+							<p class="card__date">Valid thru: 09/17</p>
+						</a>
+					</li>
+				</ul>
+			</div><!-- End of box-left -->
+			<div class="box-right">
+				<div class="right-top">
+					<h2 class="right__heading">Current balance</h2>
+					<span class="right__price">$729.<sup>00</sup></span>
+				</div>
+				<hr class="line">
+				<ul class="balance-list">
+
+					<li class="balance-item">
+						<div class="balance__icon minus"></div> <!-- bg img qilib .minusga minus img, .plusga plus img beriladi, JSda classlar almashadi -->
+						<div class="text-wrapper">
+							<h3 class="balance__heading">Apple phone7, 128 GB</h3>
+							<p class="balance__text">Electronics #32343424 - 12 July 2015</p>
+						</div>
+						<span class="balance-blue">$650.<sup>00</sup></span>
+					</li>
+				
+					<li class="balance-item">
+						<div class="balance__icon plus"></div> <!-- bg img qilib .minusga minus img, .plusga plus img beriladi, JSda classlar almashadi -->
+						<div class="text-wrapper">
+							<h3 class="balance__heading">Funds added</h3>
+							<p class="balance__text">Payment #5435 - 11 July 2015</p>
+						</div>
+						<span class="balance-green">$900.<sup>00</sup></span>
+					</li>
+
+					<li class="balance-item">
+						<div class="balance__icon minus"></div> <!-- bg img qilib .minusga minus img, .plusga plus img beriladi, JSda classlar almashadi -->
+						<div class="text-wrapper">
+							<h3 class="balance__heading">Energy bill</h3>
+							<p class="balance__text">Other #32343424 - 11 July 2015</p>
+						</div>
+						<span class="balance-blue">$84.<sup>90</sup></span>
+					</li>
+
+					<li class="balance-item">
+						<div class="balance__icon minus"></div> <!-- bg img qilib .minusga minus img, .plusga plus img beriladi, JSda classlar almashadi -->
+						<div class="text-wrapper">
+							<h3 class="balance__heading">The eye cinema ticket</h3>
+							<p class="balance__text">Entertaiment #32343424 - 11 July 2015</p>
+						</div>
+						<span class="balance-blue">$84.<sup>90</sup></span>
+					</li>
+
+					<li class="balance-item">
+						<div class="balance__icon minus"></div> <!-- bg img qilib .minusga minus img, .plusga plus img beriladi, JSda classlar almashadi -->
+						<div class="text-wrapper">
+							<h3 class="balance__heading">Gas station</h3>
+							<p class="balance__text">Entertaiment #32343424 - 11 July 2015</p>
+						</div>
+						<span class="balance-blue">$233.<sup>90</sup></span>
+					</li>
+
+					<li class="balance-item">
+						<div class="balance__icon minus"></div> <!-- bg img qilib .minusga minus img, .plusga plus img beriladi, JSda classlar almashadi -->
+						<div class="text-wrapper">
+							<h3 class="balance__heading">Barbershop</h3>
+							<p class="balance__text">Entertaiment #32343424 - 11 July 2015</p>
+						</div>
+						<span class="balance-blue">$2.<sup>90</sup></span>
+					</li>
+				</ul>
+			</div><!-- End of box-right -->
+		</div><!-- End of box -->
+	</div><!-- End of container -->
+</body>
+</html>
